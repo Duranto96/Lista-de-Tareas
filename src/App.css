@@ -1,3 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background: linear-gradient(290deg, #00c6e3 0%, #4e95f1 50.37%, #9966ff 100%);
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 32px 16px rgba(90, 95, 101, 0.3);
+}
+
 .App {
   text-align: center;
 }
