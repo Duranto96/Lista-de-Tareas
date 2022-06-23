@@ -38,10 +38,7 @@ function Main({ operacion, tarea = {} }) {
         <option value="prioridad-media">media</option>
         <option value="prioridad-alta">alta</option>
       </select>
-      <button id="agregar">
-        {tarea.id ? "EDITAR" : "Agregar!"}
-        {console.log("funca")};
-      </button>
+      <button id="agregar">{tarea.id ? "EDITAR" : "Agregar!"}</button>
     </form>
   );
 }
